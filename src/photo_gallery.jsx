@@ -5,14 +5,14 @@ const fakeFetch = url => new Promise(resolve => {
   setTimeout(() => resolve([
     `Image_1.JPG`,
     `Image_2.JPG`,
-    `Image_12.JPEG`,
+    `Image_12.JPG`,
     `Image_4.JPG`,
-    `image_13.JPEG`,
+    `image_13.JPG`,
     `Image_6.JPG`,
     `Image_7.JPG`,
-    `image_17.JPEG`,
-    `image_27.JPEG`,
-    `image_15.JPEG`,
+    `image_17.JPG`,
+    `image_27.JPG`,
+    `image_15.JPG`,
   ]), 2000)
 })
 
