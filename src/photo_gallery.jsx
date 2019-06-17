@@ -7,12 +7,12 @@ const fakeFetch = url => new Promise(resolve => {
     `Image_2.JPG`,
     `Image_12.JPG`,
     `Image_4.JPG`,
-    `image_13.JPG`,
+    `Image_13.JPG`,
     `Image_6.JPG`,
     `Image_7.JPG`,
-    `image_17.JPG`,
-    `image_27.JPG`,
-    `image_15.JPG`,
+    `Image_17.JPG`,
+    `Image_27.JPG`,
+    `Image_15.JPG`,
   ]), 2000)
 })
 
