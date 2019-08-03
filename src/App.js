@@ -33,6 +33,7 @@ function App() {
         <Route path="/services" component={Services} />
         <Route path="/projects" component={Projects} />
       </Switch>
+      <HomepageLayout/>
     </Router>
   );
 }
@@ -40,7 +41,8 @@ function App() {
 
 const Home = () => (
   <div>
-    <HomepageLayout/>
+    homepage!
+    
   </div>
 )
 
