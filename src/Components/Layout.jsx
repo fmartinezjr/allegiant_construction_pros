@@ -168,56 +168,6 @@ ResponsiveContainer.propTypes = {
 
 const HomepageLayout = () => (
   <ResponsiveContainer>
-    <Segment style={{ padding: '8em 0em' }} vertical>
-      <Grid container stackable verticalAlign='middle'>
-        <Grid.Row>
-          <Grid.Column width={8}>
-            <Header as='h3' style={{ fontSize: '2em' }}>
-            OUR COMMITMENT
-            </Header>
-            <p style={{ fontSize: '1.33em' }}>
-            Our company is committed to providing top quality service. We guarantee customer satisfaction through our quality work and focus on the customer.
-            </p>
-            
-          </Grid.Column>
-          <Grid.Column floated='right' width={6}>
-            <Image bordered rounded size='medium' src='/AC&DP_7.jpg' />
-          </Grid.Column>
-        </Grid.Row>
-        <Grid.Row>
-          <Grid.Column textAlign='center'>
-            <Button as='a' href='/projects'size='huge'>Check Out Our Work</Button>
-          </Grid.Column>
-        </Grid.Row>
-      </Grid>
-    </Segment>
- 
-   <Segment inverted vertical style={{ padding: '5em 0em' }}>
-      <Container>
-        <Grid divided inverted stackable>
-          <Grid.Row>
-            <Grid.Column width={3}>
-              <List link inverted>
-                <List.Item as='a' href='/about'>About</List.Item>
-                <List.Item as='a' href='/services'>Services</List.Item>
-                <List.Item as='a' href='/projects'>Projects</List.Item>
-              </List>
-            </Grid.Column>
-            <Grid.Column width={7}>
-              <Header as='h4' inverted >
-              Allegiant Construction & Drywall Professionals
-              </Header>
-              <p>
-                Phone: 915-342-2295
-              </p>
-              <p>
-               allegiantconstructiondesign@gmail.com
-               </p>
-            </Grid.Column>
-          </Grid.Row>
-        </Grid>
-      </Container>
-    </Segment>
   </ResponsiveContainer>
 )
 
