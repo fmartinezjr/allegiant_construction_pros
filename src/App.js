@@ -1,5 +1,5 @@
-import PropTypes from 'prop-types'
-import React, { Component } from 'react'
+import PropTypes from "prop-types";
+import React, { Component } from "react";
 import {
   Button,
   Container,
@@ -13,16 +13,15 @@ import {
   Responsive,
   Segment,
   Sidebar,
-  Visibility,
-} from 'semantic-ui-react'
-import Home from './Homepage.jsx'
+  Visibility
+} from "semantic-ui-react";
+import Home from "./Homepage.jsx";
 
-import './App.css';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import About from './About.jsx';
-import Services from './Services.jsx';
-import Projects from './Projects.jsx';
-
+import "./App.css";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import About from "./About.jsx";
+import Services from "./Services.jsx";
+import Projects from "./Projects.jsx";
 
 function App() {
   return (
