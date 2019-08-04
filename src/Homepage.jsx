@@ -15,12 +15,11 @@ import {
   Sidebar,
   Visibility,
 } from 'semantic-ui-react'
-import PhotoGallery from './photo_gallery.jsx'
 import './App.css';
 import HomepageLayout from './Components/Layout.jsx';
 import Footer from './Components/Footer.jsx'
 
-function Projects() {
+function Home() {
   return (
     <div>
     <HomepageLayout/>
@@ -29,10 +28,21 @@ function Projects() {
         <Grid.Row>
           <Grid.Column width={8}>
             <Header as='h3' style={{ fontSize: '2em' }}>
-            PROJECTS 
+            OUR COMMITMENT
             </Header>
+            <p style={{ fontSize: '1.33em' }}>
+            Our company is committed to providing top quality service. We guarantee customer satisfaction through our quality work and focus on the customer.
+            </p>
+            
           </Grid.Column>
-          <PhotoGallery />
+          <Grid.Column floated='right' width={6}>
+            <Image bordered rounded size='medium' src='/AC&DP_7.jpg' />
+          </Grid.Column>
+        </Grid.Row>
+        <Grid.Row>
+          <Grid.Column textAlign='center'>
+            <Button as='a' href='/projects'size='huge'>Check Out Our Work</Button>
+          </Grid.Column>
         </Grid.Row>
       </Grid>
     </Segment>
@@ -42,4 +52,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default Home;
