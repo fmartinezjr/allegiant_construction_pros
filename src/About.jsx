@@ -25,7 +25,7 @@ function About() {
             
           </Grid.Column>
           <Grid.Column floated='right' width={6}>
-            <Image bordered rounded size='medium' src='/AC&DP_7.jpg' />
+            <Image bordered rounded size='medium' src='AC_DP_7.jpg' />
           </Grid.Column>
         </Grid.Row>
       </Grid>

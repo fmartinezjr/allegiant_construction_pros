@@ -27,7 +27,7 @@ const getWidth = () => {
  */
 const HomepageHeading = ({ mobile }) => (
   <Container text>
-    <Image bordered rounded centered size='large' src='/AC&DP_LOGO_1.png' />
+    <Image bordered rounded centered size='large' src='AC_DP_LOGO_1.png' />
 
   </Container>
 )
