@@ -2,6 +2,7 @@
   "name": "allegiant_construction_project",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://martinezfran63.github.io/allegiant_construction_pros",
   "dependencies": {
     "prettier": "^1.18.2",
     "react": "^16.8.6",
