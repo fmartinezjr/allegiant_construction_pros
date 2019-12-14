@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/allegiant_construction_pros/precache-manifest.4f05059d04ccac2703ad2a55aacab07e.js"
+  "/allegiant_construction_pros/precache-manifest.f619a291eb5ef022ab344513460ff414.js"
 );
 
 self.addEventListener('message', (event) => {
