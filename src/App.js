@@ -18,7 +18,7 @@ import {
 import Home from "./Homepage.jsx";
 
 import "./App.css";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import About from "./About.jsx";
 import Services from "./Services.jsx";
 import Projects from "./Projects.jsx";
