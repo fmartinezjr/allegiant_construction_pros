@@ -1,20 +1,12 @@
-import PropTypes from 'prop-types'
-import React, { Component } from 'react'
+import React from 'react';
 import {
-  Button,
   Container,
-  Divider,
   Grid,
   Header,
-  Icon,
-  Image,
   List,
-  Menu,
-  Responsive,
   Segment,
-  Sidebar,
-  Visibility,
-} from 'semantic-ui-react'
+} from 'semantic-ui-react';
+import {Link} from "react-router-dom";
 
 const Footer = () => (
     <Segment inverted vertical style={{ padding: '5em 0em' }}>
@@ -23,10 +15,14 @@ const Footer = () => (
           <Grid.Row>
             <Grid.Column width={3}>
               <List link inverted>
-              <List.Item as='a' href='/'>Home</List.Item>
-                <List.Item as='a' href='/about'>About</List.Item>
-                <List.Item as='a' href='/services'>Services</List.Item>
-                <List.Item as='a' href='/projects'>Projects</List.Item>
+
+                <List.Item><Link to="/">Home</Link></List.Item>
+                <List.Item><Link to="/about">About</Link></List.Item>
+                <List.Item><Link to="/services">Services</Link></List.Item>
+                <List.Item><Link to="/projects">Projects</Link></List.Item>
+
+
+
               </List>
             </Grid.Column>
             <Grid.Column width={7}>

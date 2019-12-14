@@ -1,24 +1,7 @@
-import PropTypes from "prop-types";
-import React, { Component } from "react";
-import {
-  Button,
-  Container,
-  Divider,
-  Grid,
-  Header,
-  Icon,
-  Image,
-  List,
-  Menu,
-  Responsive,
-  Segment,
-  Sidebar,
-  Visibility
-} from "semantic-ui-react";
+import React from "react";
 import Home from "./Homepage.jsx";
-
 import "./App.css";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import About from "./About.jsx";
 import Services from "./Services.jsx";
 import Projects from "./Projects.jsx";

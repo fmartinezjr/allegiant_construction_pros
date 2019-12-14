@@ -1,23 +1,15 @@
-import PropTypes from 'prop-types'
-import React, { Component } from 'react'
+import React from 'react'
 import {
   Button,
-  Container,
-  Divider,
   Grid,
   Header,
-  Icon,
   Image,
-  List,
-  Menu,
-  Responsive,
   Segment,
-  Sidebar,
-  Visibility,
 } from 'semantic-ui-react'
 import './App.css';
 import HomepageLayout from './Components/Layout.jsx';
 import Footer from './Components/Footer.jsx'
+import {Link} from "react-router-dom";
 
 function Home() {
   return (
@@ -41,7 +33,7 @@ function Home() {
         </Grid.Row>
         <Grid.Row>
           <Grid.Column textAlign='center'>
-            <Button as='a' href='/projects'size='huge'>Check Out Our Work</Button>
+            <Link to="/projects"><Button size='huge'>Checkout Our Work</Button></Link>
           </Grid.Column>
         </Grid.Row>
       </Grid>

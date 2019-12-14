@@ -1,20 +1,16 @@
 import PropTypes from 'prop-types'
 import React, { Component } from 'react'
 import {
-  Button,
   Container,
-  Divider,
-  Grid,
-  Header,
   Icon,
   Image,
-  List,
   Menu,
   Responsive,
   Segment,
   Sidebar,
   Visibility,
 } from 'semantic-ui-react'
+import {Link} from "react-router-dom";
 
 // Heads up!
 // We using React Static to prerender our docs with server side rendering, this is a quite simple solution.
@@ -75,10 +71,10 @@ class DesktopContainer extends Component {
               size='large'
             >
               <Container>
-                <Menu.Item as='a'href='/'>Home</Menu.Item>
-                <Menu.Item as='a' href='/about'>About Us</Menu.Item>
-                <Menu.Item as='a' href='/services'>Services</Menu.Item>
-                <Menu.Item as='a' href='/projects'>Projects</Menu.Item>
+                <Menu.Item><Link to="/">Home</Link></Menu.Item>
+                <Menu.Item><Link to="/about">About Us</Link></Menu.Item>
+                <Menu.Item><Link to="/services">Services</Link></Menu.Item>
+                <Menu.Item><Link to="/projects">Projects</Link></Menu.Item>
               </Container>
             </Menu>
             <HomepageHeading />
